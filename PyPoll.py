@@ -5,44 +5,36 @@ import csv
 import os
 # Assign a variable for the file to load and the path.
 file_to_load = os.path.join("Resources", "election_results.csv")
-# Open the election results and read the file.
+
+# 1. Initialize a total vote counter.
+total_votes = 0
+
+# Open the election results and read the file
 with open(file_to_load) as election_data:
+    file_reader = csv.reader(election_data)
 
-    # Print the file object.
-     print(election_data)
+    # Read the header row.
+    headers = next(file_reader)
 
+    # Print each row in the CSV file.
+    for row in file_reader:
+        # 2. Add to the total vote count.
+        total_votes += 1
 
-# Create a filename variable to a direct or indirect path to the file.
-#file_to_save = os.path.join("analysis", "election_analysis.txt")
-
-#Use the open statement to open the file as a text file.
-#outfile = open(file_to_save, "w")
-
-
-# Using the with statement open the file as a text file.
-#with open(file_to_save, "w") as txt_file:
-
-    # Write three counties to the file.
-#     txt_file.write("Counties in the Election\n----------------------------\nArapahoe\nDenver\nJefferson")
-
-# Close the file
-#outfile.close()
-
-# To do: read and analyze the data here.
-    # Read the file object with the reader function.
-     file_reader = csv.reader(election_data)
-
-# Print each row in the CSV file.
-#     for row in file_reader:
-#        print(row)
-
-# Print the header row.
-     headers = next(file_reader)
-     print(headers)
+# 3. Print the total votes.
+print(total_votes)
 
 
+# Print the candidate name from each row.
+        candidate_name = row[2]
 
-#Total number of votes cast
+        # Add the candidate name to the candidate list.
+        candidate_options.append(candidate_name)
+
+# Print the candidate list.
+print(candidate_options)
+
+
 #A complete list of candidates who received votes
 #Total number of votes each candidate received
 #Percentage of votes each candidate won
