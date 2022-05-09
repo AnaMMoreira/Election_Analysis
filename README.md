@@ -10,3 +10,45 @@ In order to develop this tool the election results data was provided in a Comma 
 Seth, Tom's manager, would like him to become familiar with writing an running Python scripst using a command line, in order to make updates to GitHub repository. Using and understanding the Python script will allow Tom to perform future updates and election audits and analysis.  The Python code is found in the PyPoll_Challenge.py file and comments describing each data maniputation is cafully included so Tom or anyone looking at the code can easily follow and perhaps modify as needed.
 
 [PyPoll_Challenge.py]https://github.com/AnaMMoreira/Election_Analysis/blob/main/Resources/election_results.csv
+
+## 2.  Election-Audit Results
+
+For this project, the command line was used to upload and access files to update GitHub repositories, and starting the Python interpreter to write and run Python scripts. Git Bash is a Microsoft Windows environment application that installs Bash and Git on a Windows operating system and was ther terminal used.  After installing and setting up all the necessary tools the developed code was successfully run and yielded the following election results.  The code outputs the results to the comand line as seen in the following screen capture.
+
+![terminal output image]https://github.com/AnaMMoreira/Election_Analysis/blob/main/analysis/command_line_window.png
+
+the results were also saved to a text file externally and can be seen within the Analysis folder
+
+[Election Analysis Results]https://github.com/AnaMMoreira/Election_Analysis/blob/main/analysis/election_analysis.txt
+
+* How many votes were cast in this congressional election?
+
+In the summary it can be observed that a total count of the votes yielded a Total Votes of 369,711.
+
+* 
+The breakdown of the number of votes and the percentage of total votes for each county in the precinct was as follows; 
+
+County Votes:
+Jefferson: 10.5% (38,855)
+Denver: 82.8% (306,055)
+Arapahoe: 6.7% (24,801)
+
+* with the largest county turnout was from Denver's contribution of 306,055 votes representing 82.8 % of the total votes.
+
+* Each candidate vote breakdown can be summarized as follows.
+
+Charles Casper Stockham: 23.0% (85,213)
+Diana DeGette: 73.8% (272,892)
+Raymon Anthony Doane: 3.1% (11,606)
+
+* The winner of the election was Diana DeGette with 272,892 votes representing 73.8 % of the total votes.
+
+## 3. Election Audit Results
+
+ In summary the Python code developed for this project is able to audit, and analyse election data.  It is able to extract total vote count and subdivide and group votes by both counties and candidates in order to be able to reliably count and determine who won the elections, what the percentage of votes each candidate aquired, and which counties contributed the most by votes to the election.  A proposal to the election commission thrus can be made to modify this script so it can be used for any election.
+
+This code could be applied to other pricints as is, it will read in each county bc it generates a list of counties and candidates and is able to acurately calculate the total votes and therefore each individual contributions.  
+
+Improvements for other applications could include for example, for local elections within each county the code could be simplified to only give the summary for each candidate by simply commenting out the sections which extract, count and calculate votes based on the different counties.
+
+Another example could be to further expand the code to subdivide the county votes grouped by canditates so that each candidate can see where they got the most votes.  This could be particularly usedful for the Congressional and Senetorial elections which are conducted on the State level and are based on poputalion totals.
