@@ -23,23 +23,22 @@ the results were also saved to a text file externally and can be seen within the
 
 * How many votes were cast in this congressional election?
 
-In the summary it can be observed that a total count of the votes yielded a Total Votes of 369,711.
+	In the summary it can be observed that a total count of the votes yielded a Total Votes of 369,711.
 
-* 
-The breakdown of the number of votes and the percentage of total votes for each county in the precinct was as follows; 
+* The breakdown of the number of votes and the percentage of total votes for each county in the precinct was as follows; 
 
-County Votes:
-Jefferson: 10.5% (38,855)
-Denver: 82.8% (306,055)
-Arapahoe: 6.7% (24,801)
+	County Votes:
+	Jefferson: 10.5% (38,855)
+	Denver: 82.8% (306,055)
+	Arapahoe: 6.7% (24,801)
 
 * with the largest county turnout was from Denver's contribution of 306,055 votes representing 82.8 % of the total votes.
 
 * Each candidate vote breakdown can be summarized as follows.
 
-Charles Casper Stockham: 23.0% (85,213)
-Diana DeGette: 73.8% (272,892)
-Raymon Anthony Doane: 3.1% (11,606)
+	Charles Casper Stockham: 23.0% (85,213)
+	Diana DeGette: 73.8% (272,892)
+	Raymon Anthony Doane: 3.1% (11,606)
 
 * The winner of the election was Diana DeGette with 272,892 votes representing 73.8 % of the total votes.
 
